@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <title>Contato</title>
 </head>
 <body>
   <header>
@@ -11,23 +14,47 @@
       <h2 id="logo">FastFluent</h2>
         <ul class="listHeader">
           <li><a class="navItem" href="/index.html" target="_blank">Início</a></li>
-          <li><a class="navItem" href="/assets/pages/about.html">Sobre</a></li>
-          <li><a class="navItem" href="/assets/pages/services.html">Serviços</a></li>
+          <li><a class="navItem" href="/assets/pages/about.html" target="_blank" >Sobre</a></li>
+          <li><a class="navItem" href="/assets/pages/services.html" target="_blank">Serviços</a></li>
           <li><a class="navItem" href="/assets/pages/contact.html" target="_blank">Contato</a></li>
         </ul>
     </nav>
   </header>
 
   <main>
-    
+       <section id="topPage">
+        <h1>Nos contate</h1>
+      </section>
+
+      <section id="location">
+        <h2>Onde nos encontrar</h2>
+        <div id="cardLocation">
+          <p><i class="bi bi-pin-map"></i> Caminho 12 |, Gleba F, s/n - Mussurunga, Salvador</p>
+          <p><i class="bi bi-telephone"></i> (71)8823-0000</p>
+          <p><i class="bi bi-envelope"></i> contato@fastfluent.com</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9218987290983!2d-38.370588825773!3d-12.912741158626728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716170298b2971d%3A0xe9f913a0d8b24f26!2sCentro%20Estadual%20de%20Educa%C3%A7%C3%A3o%20Profissional%20Newton%20Sucupira!5e0!3m2!1spt-BR!2sbr!4v1749239833527!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <section id="contactForm">
+        <h2>Envie uma mensagem</h2>
+        <p>Se ficou com dúvida, quer deixar um feedback, deseja realizar sua inscrição,
+          ou precisa de suporte, deixe uma mensagem e nosso time irá retornar em breve.</p>
+          
+        <form action="" method="post">
+          <input id="name" name="name" type="text" placeholder="Insira seu nome">
+          <input id="email" name="email" type="email" placeholder="Insira seu email">
+          <textarea name="message" id="message" placeholder="Insira uma mensagem"></textarea>
+          <button id="sendForm" type="submit">Enviar</button>
+        </form>
+      </section>
   </main>
 
   <footer>
-        <a href="mailto:contato@fastfluent.com" aria-label="Enviar email para contato@fastfluent.com">
-          <i class="bi bi-envelope"></i>
-          contato@fastfluent.com
-        </a>
+        <a href="mailto:contato@fastfluent.com"><i class="bi bi-envelope-at-fill" aria-label="Enviar email para contato@fastfluent.com"></i></i></a>
         <p id="copyright"> &copy; 2025 Todos os direitos reservados.</p>
   </footer>
+  
+  <script src="/assets/js/script.js"></script>
 </body>
 </html>
