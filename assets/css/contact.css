@@ -1,0 +1,79 @@
+
+#topPage{
+    display: flex;
+    background-image: url("/assets/image/contato.png");
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    gap: 3px;
+}
+
+#location{
+    margin: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+#cardLocation{
+    background-color: #4d7da8;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#cardLocation p{
+    color: #010101;
+}
+
+#cardLocation i{
+    font-size: 1rem;
+    color: #010101 ;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #010101;
+}
+
+#contactForm{
+    margin: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #f8f8f8;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  border: 1px solid #b3b1b1;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #d12f2f;
+  outline: none;
+}
+
+textarea {
+  min-height: 120px;
+}

@@ -1,0 +1,78 @@
+#topPage{
+    display: flex;
+    background-image: url("/assets/image/professor\ de\ ingles.png");
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    gap: 3px;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #010101;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 4rem 0 4rem;
+}
+
+
+#cardsService{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50rem;
+    gap: 2rem;
+}
+
+.card{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    width: 30%;
+    height: 17rem;
+    background-color:#4d7da8;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out 0s ;
+}
+
+.card:hover{
+    background-color:#014787;
+}
+
+#statistic{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d7da8;
+    height: 14rem;
+}
+#statistic h2{
+    font-size: 2rem;
+    color: #111010;
+}
+#statistic i, .card i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ae0505;
+    width: 4rem;
+    height: 4rem;
+}
+
+h3{
+    font-size: 1rem;
+}
