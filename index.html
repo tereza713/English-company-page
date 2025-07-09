@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
     <title>Início</title>
 </head>
 <body>
@@ -11,96 +14,100 @@
       <h2 id="logo">FastFluent</h2>
         <ul class="listHeader">
           <li><a class="navItem" href="/index.html" target="_blank">Início</a></li>
-          <li><a class="navItem" href="/assets/pages/about.html">Sobre</a></li>
-          <li><a class="navItem" href="/assets/pages/services.html">Serviços</a></li>
+          <li><a class="navItem" href="/assets/pages/about.html" target="_blank">Sobre</a></li>
+          <li><a class="navItem" href="/assets/pages/services.html" target="_blank" >Serviços</a></li>
           <li><a class="navItem" href="/assets/pages/contact.html" target="_blank">Contato</a></li>
         </ul>
     </nav>
   </header>
 
     <main>
-     <section id="topPage">
+     <section id="topPage"> <!--capa com nome do conteudo da página-->
         <h1>FastFluent</h1>
         <h2>A fluência que você precisa, com a didática que funciona.</h2>
-        <figure>
-          <img src="/assets/image/inicio.jpg" alt="imagem de um óculos em cima de um livro de inglês">
-        </figure>
         <button class="contact">Entre em contato</button>
       </section>
 
-      <section id="whyFastFluent">
-        <h2>Por que aprender inglês com a FastFluent?</h2>
-        <p>
-          Falar inglês é abrir portas para oportunidades.
-          Seja pra viajar, crescer na carreira ou entender tudo sem legenda, o inglês faz diferença.
-          Na FastFluent, você aprende no seu ritmo, com aulas práticas e suporte de verdade.
-          Chega de adiar. Comece hoje a transformar seu futuro.
-        </p>
-        <button class="contact">Inscreva-se agora!</button>
+      <section id="whyFastFluent"> <!--sessão de justificativa-->
+        <div class="text">
+          <h2>Por que aprender inglês com a FastFluent?</h2>
+          <p>
+            Falar inglês é abrir portas para oportunidades.
+            Seja pra viajar, crescer na carreira ou entender tudo sem legenda, o inglês faz diferença.
+            Na FastFluent, você aprende no seu ritmo, com aulas práticas e suporte de verdade.
+            Chega de adiar. Comece hoje a transformar seu futuro.
+          </p>
+          <button class="contact">Inscreva-se agora!</button>
+        </div>
         <figure>
           <img src="/assets/image/mulher.png" alt="imagem ilustrativa de uma garota de fone, falando em inglês no telefone, com um gato sentado em seu colo">
         </figure>
       </section>
 
-      <section id="whatLearn">
-        <h2>Como é aprender com a FastFluent?</h2>
-        <p>
-          Aqui, aprender inglês é simples, leve e direto ao ponto.
-          Nada de decoreba: você aprende com situações reais e materiais que fazem sentido.
-          Tudo no seu tempo, com uma metodologia que funciona de verdade.
-          Confiança e fluência começam aqui.
-        </p>
-        <button class="contact">Inscreva-se agora!</button>
+      <section id="whatLearn"> <!--sessão de justificativa-->
+        <div class="text">
+          <h2>Como é aprender com a FastFluent?</h2>
+          <p>
+            Aqui, aprender inglês é simples, leve e direto ao ponto.
+            Nada de decoreba: você aprende com situações reais e materiais que fazem sentido.
+            Tudo no seu tempo, com uma metodologia que funciona de verdade.
+            Confiança e fluência começam aqui.
+          </p>
+          <button class="contact">Inscreva-se agora!</button>
+        </div>
         <figure>
           <img src="/assets/image/livros.png" alt="imagem ilustrativa de livros de inglês">
         </figure>
       </section>
 
-      <section id="feedbacks">
+      <section id="feedbacks"> <!--sessão de feedbacks-->
         <h2>Feedbacks</h2>
         <p>Confira o que nossos estudantes acharam do curso:</p>
 
-        <div class="card">
-          <h3>Aline Pataxó</h3>
-          <figure>
-            <img src="/assets/image/cliente-1.png" alt="imagem de mulher indigena seria">
-          </figure>
-          <p>Sou do povo Pataxó e sempre tive o sonho de aprender inglês para compartilhar a cultura do meu povo com o mundo. 
-            Com esse curso, aprendi no meu ritmo, com respeito à minha realidade.
-            Hoje, consigo me comunicar melhor com visitantes e fortalecer minha voz como mulher indígena.
-          </p>
-        </div>
+        <div id="cards">
+          
+            <div class="card">
+            <h3>Aline Pataxó</h3>
+            <figure>
+              <img src="/assets/image/cliente-1.png" alt="imagem de mulher indigena seria">
+            </figure>
+            <p>Sou do povo Pataxó e sempre tive o sonho de aprender inglês para compartilhar a cultura do meu povo com o mundo. 
+              Com esse curso, aprendi no meu ritmo, com respeito à minha realidade.
+              Hoje, consigo me comunicar melhor com visitantes e fortalecer minha voz como mulher indígena.
+            </p>
+          </div>
 
-        <div class="card">
-          <h3>Jonas Silva</h3>
-          <figure>
-            <img src="/assets/image/cliente-2.png" alt="imagem de um homem negro sorrindo">
-          </figure>
-          <p>O método é direto ao ponto e realmente funciona. 
-            Em poucos meses, saí do básico e já estou assistindo séries sem legenda.
-            Super recomendo!
-          </p>
-        </div>
+          <div class="card">
+            <h3>Jonas Silva</h3>
+            <figure>
+              <img src="/assets/image/cliente-2.png" alt="imagem de um homem negro sorrindo">
+            </figure>
+            <p>O método é direto ao ponto e realmente funciona. 
+              Em poucos meses, saí do básico e já estou assistindo séries sem legenda.
+              Super recomendo!
+            </p>
+          </div>
 
-        <div class="card">
-          <h3>Yasmin Braga</h3>
-          <figure>
-            <img src="/assets/image/cliente-3.png" alt="imagem de uma adolescente ruiva sorrindo">
-          </figure>
-          <p>
-            A didática é excelente e os professores são muito atenciosos.
-             O material é moderno e focado em situações reais, o que fez toda a diferença no meu aprendizado.
-          </p>
+          <div class="card">
+            <h3>Yasmin Braga</h3>
+            <figure>
+              <img src="/assets/image/cliente-3.png" alt="imagem de uma adolescente ruiva sorrindo">
+            </figure>
+            <p>
+              A didática é excelente e os professores são muito atenciosos.
+              O material é moderno e focado em situações reais, o que fez toda a diferença no meu aprendizado.
+            </p>
+          </div>
+
         </div>
       </section>
     </main>
 
       <footer>
-        <a href="mailto:contato@fastfluent.com" aria-label="Enviar email para contato@fastfluent.com">
-          <i class="bi bi-envelope"></i>
-          contato@fastfluent.com
-        </a>
+        <a href="mailto:contato@fastfluent.com"><i class="bi bi-envelope-at-fill" aria-label="Enviar email para contato@fastfluent.com"></i></i></a>
         <p id="copyright"> &copy; 2025 Todos os direitos reservados.</p>
   </footer>
+
+  <script src="/assets/js/script.js"></script>
 </body>
 </html>
